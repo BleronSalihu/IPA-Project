@@ -1,0 +1,19 @@
+//
+// Version.rc2 - resources App Studio does not edit directly
+//
+
+#ifdef APSTUDIO_INVOKED
+    #error this file is not editable by App Studio
+#endif // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Includes
+//
+#include "MandatoryFieldsG.rc"
+#include "MandatoryFieldsF.rc"
+#include "MandatoryFieldsI.rc"
+#include "Version.rc2"
+ 
+/////////////////////////////////////////////////////////////////////////////

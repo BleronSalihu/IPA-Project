@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PrivateInclude">
+      <UniqueIdentifier>{653d2071-f091-41af-895e-428c9e10aa87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInclude\MandatoryFields">
+      <UniqueIdentifier>{fd21fecc-b4f5-4d18-9548-58940b942da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Property">
+      <UniqueIdentifier>{39b88cd7-3149-4695-be52-5562aaec3704}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{284dc3f5-2b9a-4c26-8ce0-d8e7a41ea65f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{1c596d61-6192-4a43-b7db-04dbf5626205}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\MandatoryFields">
+      <UniqueIdentifier>{862643fe-e27b-4929-bf42-170be9a207a2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MandatoryFields\ConnectionTests.cpp">
+      <Filter>Source\MandatoryFields</Filter>
+    </ClCompile>
+    <ClInclude Include="PrivateInclude\stdafx.h">
+      <Filter>PrivateInclude</Filter>
+    </ClInclude>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ResourceCompile Include="Resource\MandatoryFields.Test.rc2">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+    <None Include="Resource\resource.h">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Property\MandatoryFields.TestDebug.props">
+      <Filter>Property</Filter>
+    </None>
+    <None Include="Property\MandatoryFields.TestRelease.props">
+      <Filter>Property</Filter>
+    </None>
+    <NoFilter Include="MandatoryFields.Test.vcxproj" />
+    <ClCompile Include="Source\MandatoryFields\MandatoryFieldServiceTest.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MandatoryFields\MandatoryFieldMarkerUpdaterTest.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <NoFilter Include="MandatoryFields.Test.vcxproj.filters" />
+  </ItemGroup>
+</Project>

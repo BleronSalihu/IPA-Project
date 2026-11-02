@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{cf4d9c29-bb85-4090-a95e-638993ec6ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields">
+      <UniqueIdentifier>{c8e8e4e2-bb0b-4e04-8ae4-483547659967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInclude">
+      <UniqueIdentifier>{939d4023-d858-440a-b75f-264449c42b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrivateInclude\MandatoryFields">
+      <UniqueIdentifier>{9cf15618-0807-4ff1-ac57-973c846572dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Property">
+      <UniqueIdentifier>{61df5eef-5fd7-4148-91b9-78862b3c2218}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{10008dbe-04b3-4cbe-a482-f1fddf469a95}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{e0520778-3681-4eb6-a022-06c1bc564630}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\MandatoryFields">
+      <UniqueIdentifier>{113b664c-8a50-4c1c-929f-6167b9f65de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields\UI">
+      <UniqueIdentifier>{cd71c622-7e7c-4ad9-b86f-ab50196b45d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MandatoryFields\UI">
+      <UniqueIdentifier>{30532cf0-57b8-49db-817a-c7e9a9a172b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields\Data">
+      <UniqueIdentifier>{284478d4-bb2e-42ea-a4a0-8e0d8afb514d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields\Data\Type">
+      <UniqueIdentifier>{decbdfa8-12bd-4650-980c-02a204fbfb42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields\BL">
+      <UniqueIdentifier>{487ad117-d6ff-4bd7-ad22-43bd1f695b66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields\UI\Adapter">
+      <UniqueIdentifier>{1f2d88cb-701d-43a2-8368-ad1d51b91a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MandatoryFields\Data">
+      <UniqueIdentifier>{1c16e9bc-8f43-4261-9f34-dfd792273cb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MandatoryFields\Data\Type">
+      <UniqueIdentifier>{206e4cbc-6411-4665-8c75-849049988da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MandatoryFields\BL">
+      <UniqueIdentifier>{c269811b-0123-4cb0-be94-fff01ff9c057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MandatoryFields\UI\Adapter">
+      <UniqueIdentifier>{602566ab-f5be-4c00-9158-1329bcf390f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\MandatoryFields\Data\Adapter">
+      <UniqueIdentifier>{41428312-a77e-45e4-891d-a9796b0f41be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MandatoryFields\Data\Adapter">
+      <UniqueIdentifier>{f566dbce-1b7a-44e7-bfef-79aeeb06332c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\MandatoryFields\MandatoryFields.h">
+      <Filter>Include\MandatoryFields</Filter>
+    </ClInclude>
+    <ClCompile Include="Source\MandatoryFields\MandatoryFields.cpp">
+      <Filter>Source\MandatoryFields</Filter>
+    </ClCompile>
+    <ClInclude Include="PrivateInclude\stdafx.h">
+      <Filter>PrivateInclude</Filter>
+    </ClInclude>
+    <ClCompile Include="Source\stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClInclude Include="Include\ResStrings.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClCompile Include="Source\ResStrings.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ResourceCompile Include="Resource\MandatoryFields.rc2">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource\MandatoryFieldsG.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource\MandatoryFieldsI.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource\MandatoryFieldsF.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource\Version.rc2">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+    <None Include="Resource\resource.h">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="Property\MandatoryFieldsDebug.props">
+      <Filter>Property</Filter>
+    </None>
+    <None Include="Property\MandatoryFieldsRelease.props">
+      <Filter>Property</Filter>
+    </None>
+    <None Include="Property\UseMandatoryFields.props">
+      <Filter>Property</Filter>
+    </None>
+    <NoFilter Include="MandatoryFields.vcxproj" />
+    <ClInclude Include="Include\MandatoryFields\UI\MandatoryFieldsConfiguratorDialog.h">
+      <Filter>Include\MandatoryFields\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\Data\Type\MandatoryFieldData.h">
+      <Filter>Include\MandatoryFields\Data\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\Data\MandatoryFieldsMap.h">
+      <Filter>Include\MandatoryFields\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\UI\Adapter\AbstractFieldAccessor.h">
+      <Filter>Include\MandatoryFields\UI\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\UI\Adapter\FieldAccessor.h">
+      <Filter>Include\MandatoryFields\UI\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\BL\MandatoryService.h">
+      <Filter>Include\MandatoryFields\BL</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\Data\AbstractINIManager.h">
+      <Filter>Include\MandatoryFields\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\Data\INIManager.h">
+      <Filter>Include\MandatoryFields\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\UI\AbstractUpdater.h">
+      <Filter>Include\MandatoryFields\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\UI\MandatoryFieldMarkerUpdater.h">
+      <Filter>Include\MandatoryFields\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\Data\Adapter\AbstractINIAccessor.h">
+      <Filter>Include\MandatoryFields\Data\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MandatoryFields\Data\Adapter\INIAccessor.h">
+      <Filter>Include\MandatoryFields\Data\Adapter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <NoFilter Include="MandatoryFields.vcxproj.filters" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MandatoryFields\UI\MandatoryFieldsConfiguratorDialog.cpp">
+      <Filter>Source\MandatoryFields\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MandatoryFields\UI\Adapter\FieldAccessor.cpp">
+      <Filter>Source\MandatoryFields\UI\Adapter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MandatoryFields\BL\MandatoryService.cpp">
+      <Filter>Source\MandatoryFields\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MandatoryFields\Data\INIManager.cpp">
+      <Filter>Source\MandatoryFields\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MandatoryFields\UI\MandatoryFieldMarkerUpdater.cpp">
+      <Filter>Source\MandatoryFields\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MandatoryFields\Data\Adapter\INIAccessor.cpp">
+      <Filter>Source\MandatoryFields\Data\Adapter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
